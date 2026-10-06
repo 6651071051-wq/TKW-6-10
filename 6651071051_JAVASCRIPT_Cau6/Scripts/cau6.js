@@ -1,0 +1,8 @@
+$(document).ready(function () {
+  $("#btnCount").on("click", function () {
+    var items = $("#mySelect option").map(function () {
+      return $(this).text();
+    }).get();
+    alert("Số mục: " + items.length + "\nCác mục: " + items.join(", "));
+  });
+});

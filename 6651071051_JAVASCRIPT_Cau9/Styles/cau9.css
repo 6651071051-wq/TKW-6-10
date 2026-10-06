@@ -1,0 +1,6 @@
+body { font-family: Arial, sans-serif; margin: 30px; }
+h3 { color: #1a5c1a; }
+td { padding: 4px 8px; }
+td:first-child { text-align: right; }
+.err { color: red; font-size: 13px; }
+input.invalid, select.invalid { border: 1px solid red; }

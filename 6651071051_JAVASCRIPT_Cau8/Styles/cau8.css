@@ -1,0 +1,4 @@
+body { margin: 30px; font-family: Arial, sans-serif; }
+.calc input[type="text"] { width: 60px; padding: 4px; }
+#result { width: 160px !important; }
+.op { width: 32px; height: 28px; cursor: pointer; }
